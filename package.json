@@ -36,7 +36,4 @@
       }
     }
   },
-  "activationHooks": [
-    "core:loaded-shell-environment"
-  ]
 }
