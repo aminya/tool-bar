@@ -23,6 +23,9 @@
     "ppublish": "bash ./ppublish.sh",
     "prepare": "npm run build"
   },
+  "dependencies": {
+    "underscore-plus": "latest"
+  },
   "devDependencies": {
     "@types/atom": "latest",
     "eslint": "^6.8.0",
@@ -54,8 +57,5 @@
         "1.0.0": "provideToolBar"
       }
     }
-  },
-  "activationHooks": [
-    "core:loaded-shell-environment"
-  ]
+  }
 }
