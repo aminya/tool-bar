@@ -1,5 +1,4 @@
 {
-  // JS Files
   "root": true,
   "env": {
     "atomtest": true,
@@ -17,13 +16,11 @@
   },
   "extends": ["eslint:recommended"],
   "rules": {
-    "semi": [2, "always"],
     "no-prototype-builtins": "off"
   },
   "ignorePatterns": ["iconsets/", "node_modules/"],
   "overrides": [
     {
-      // JSON files
       "files": ["*.json"],
       "plugins": ["json"],
       "extends": ["plugin:json/recommended"],
