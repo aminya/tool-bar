@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === 'production') {
             ecma: 2018,
             warnings: true,
             compress: {
-                drop_console: true,
+                drop_console: false,
             },
         })
     );
@@ -47,6 +47,7 @@ export default [
             // node stuff
             "fs",
             "path",
+            "@iconify"
         ],
         plugins: plugins,
     },
