@@ -24,7 +24,8 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@mdi/js": "latest"
+    "@mdi/js": "latest",
+    "@iconify/iconify": "^2.0.0-beta.3"
   },
   "devDependencies": {
     "@types/atom": "latest",
